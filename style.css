@@ -250,8 +250,7 @@ section{
     }
     .project1 h2 {
         margin-top: 30px;
-        font-size: 30px;
-        
+        font-size: 30px; 
     }
     .project1 p{
         margin-top: 30px;
@@ -278,8 +277,7 @@ section{
     }
     .bye h2 {
         margin-top: 30px;
-        font-size: 30px;
-        
+        font-size: 30px; 
     }
     .bye p{
         margin-top: 30px;
@@ -290,7 +288,6 @@ section{
         display: flex;
         align-items: center;
         justify-content: center;
-   
     }
     button:hover{
         background-color: rgb(98, 68, 230);
@@ -337,7 +334,6 @@ section{
         align-items: center;
         justify-content: center;
         gap: 40px;
-      
     }
     .container2{
         width: 100px;
@@ -456,7 +452,209 @@ section{
         margin-top: 3px;
         margin-bottom: 15px;
     }
-
     .container6 p{
         margin-top: -10px;
     }
+    .box1 img{
+        margin-left: 220px;
+        width: 38px;
+        height: 38px;
+    }
+    .box1 h1{
+      margin-left: 140px;  
+    }
+    .box1 h3{
+        margin-left: 160px;
+    }
+    .box1 p{
+        font-family: sans-serif;
+        line-height: 1.5;
+        letter-spacing: 0.6px;
+        font-weight: 400;
+        font-size: 18px;   
+    }
+    .box2 img{
+        margin-left: 220px;
+        width: 38px;
+        height: 38px;
+    }
+    .box2 h1{
+        margin-left: 140px;  
+      }
+      .box2 h3{
+          margin-left: 160px;
+      }
+    .box2 p{
+        font-family: sans-serif;
+        line-height: 1.5;
+        letter-spacing: 0.6px;
+        font-weight: 400;
+        font-size: 18px;   
+    }
+    .box3 img{
+        margin-left: 220px;
+        width: 38px;
+        height: 38px;
+    }
+    .box3 h1{
+        margin-left: 140px;  
+      }
+      .box3 h3{
+          margin-left: 160px;
+      }
+    .box3 p{
+        font-family: sans-serif;
+        line-height: 1.5;
+        letter-spacing: 0.6px;
+        font-weight: 400;
+        font-size: 18px;   
+    }
+    .no2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+        margin-top: 8rem;    
+    }
+    .no1{
+        margin-top: 50px;
+        justify-content: center;
+        text-align: center;
+    }
+    .no1 h1{
+        font-size: 40px;
+    }
+    .no1 p{
+        font-size: 20px;
+        line-height: 1.5;
+        word-spacing: 5%;
+    }
+    .section3{
+        padding-bottom: 200px;
+    }
+    .colum1{
+        width: 289px;
+        height: 518px;
+       background-color: rgb(255, 255, 255);
+       border-radius: 5%;
+       line-height: 2; 
+    }
+    .colum1 h1{
+        margin-top: 25px;
+    }
+    .minicolum{
+    width: 231px;
+    height: 102px;
+    border-radius: 32px;
+    text-align: center;
+    margin-left: 30px;
+    background-color: blue
+    }
+    .minicolum p{
+        margin-bottom: -18px;
+        font-size: 18px;
+    }
+    .minicolum h1{
+        padding-top: 10px;
+        font-size: 30px;
+        margin-bottom: -30px;
+    }
+    .hello h1{
+       padding-top: 20px;
+        margin-left: 100px;
+    }
+    .parag{
+        margin-top: 20px;
+        margin-left: 90px;
+    }
+    .colum2{
+        width: 289px;
+        height: 518px;
+       background-color: rgb(255, 255, 255);
+       border-radius: 5%;
+       line-height: 2;
+    }
+    .colum2 h1{
+        margin-top: 25px;
+    }
+    .minicolum2{
+    width: 231px;
+    height: 102px;
+    border-radius: 32px;
+    text-align: center;
+    margin-left: 30px;
+    background-color: rgb(138, 75, 122)
+    }
+    .minicolum2 p{
+        margin-bottom: -18px;
+        font-size: 18px;
+    }
+    .minicolum2 h1{
+        padding-top: 10px;
+        font-size: 30px;
+        margin-bottom: -30px;
+    }
+    .hello h1{
+
+       padding-top: 20px;
+        margin-left: 100px;
+    }
+    .parag{
+        margin-top: 20px;
+        margin-left: 90px;
+    }
+    .colum3{
+        width: 289px;
+        height: 518px;
+       background-color: rgb(255, 255, 255);
+       border-radius: 5%;
+       line-height: 2;
+    }
+    .colum3 h1{
+        margin-top: 25px;
+    }
+    .minicolum{
+    width: 231px;
+    height: 102px;
+    border-radius: 32px;
+    text-align: center;
+    margin-left: 30px;
+    background-color: #8261ee
+    }
+    .minicolum p{
+        margin-bottom: -18px;
+        font-size: 18px;
+    }
+    .minicolum h1{
+        padding-top: 10px;
+        font-size: 30px;
+        margin-bottom: -30px;
+    }
+    .hello h1{
+       padding-top: 20px;
+        margin-left: 100px;
+    }
+    .parag{
+        margin-top: 20px;
+        margin-left: 60px;    
+    }
+    .parag p{
+        padding-left: 30px;
+    }
+  .colums{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+  .price{
+    text-align: center;
+  }
+  .parag button{
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 160px;
+    padding: 7px;
+    background-color: #8261ee;
+  }
