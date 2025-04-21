@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-    <header>
+    <!-- <header class="back">
             <nav>
                     <div class="logo">
                     <h1>Softy Pinky</h1>
@@ -27,7 +27,30 @@
 
 
         
+    </header> -->
+    <header class="back">
+        <nav>
+            <div class="logo">
+                <h1>Softy Pinky</h1>
+            </div>
+    
+            <!-- Hamburger icon -->
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776;
+            </div>
+    
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work Process</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Pricing Tables</a></li>
+                <li><a href="#">Blog Entries</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
+    
     <section>
         <div class="section1">
             <div class="text1">
@@ -172,7 +195,7 @@
     <section>
         <div class="section4">
             <div class="price">
-                <h1>Price Planing</h1>
+                <h1>Pricing Plans</h1>
                 <p>Donec vulputate urna sed rutrum venenatis. Cras consequat magna <br> quis arcu elementum, quis congue risus volutpat.</p>
             </div>
             <div class="colums">
@@ -358,11 +381,16 @@
             <i class="fa-solid fa-wifi"></i>
             <i class="fa-brands fa-xbox"></i>
         </div>
-        <hr>
         <div class="lastw">
             <h2>Copyright © 2020 Softy Pinko Company - Design: TemplateMo</h2>
         </div>
     </div>
     </footer>
+    <script>
+          function toggleMenu() {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.classList.toggle('active');
+    }
+    </script>
 </body>
 </html>
